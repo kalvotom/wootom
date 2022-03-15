@@ -26,6 +26,7 @@ import {DefaultInnerEnvRenderer} from './renderers/inner-env/default';
 import {InnerEnvEqrefRenderer} from './renderers/inner-env/eqref';
 import {InnerEnvFootnoteRenderer} from './renderers/inner-env/footnote';
 import {InnerEnvIRenderer} from './renderers/inner-env/i';
+import {InnerEnvMpopupRenderer} from './renderers/inner-env/mpopup';
 import {InnerEnvInlineMathRenderer} from './renderers/inner-env/inline-math';
 import {InnerEnvQuotedRenderer} from './renderers/inner-env/quoted';
 import {InnerEnvReferenceRenderer} from './renderers/inner-env/reference';
@@ -107,6 +108,7 @@ export function registerTemplateRenderers(): void {
     rendererRegistry.setRenderer(new InnerEnvReferenceRenderer());
     rendererRegistry.setRenderer(new InnerEnvSmallRenderer());
     rendererRegistry.setRenderer(new InnerEnvURenderer());
+    rendererRegistry.setRenderer(new InnerEnvMpopupRenderer());
 
     rendererRegistry.setRenderer(new InnerEnvIndexRenderer());
     rendererRegistry.setRenderer(new InnerEnvUReferenceRenderer());

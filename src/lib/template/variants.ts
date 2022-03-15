@@ -48,6 +48,7 @@ export function registerTemplateVariants(): void {
     variantRegistry.setVariant('InnerEnv', 'small', 'small');
     variantRegistry.setVariant('InnerEnv', 'todo', 'todo'); // TODO
     variantRegistry.setVariant('InnerEnv', 'underline', 'u');
+    variantRegistry.setVariant('InnerEnv', 'mpopup', 'mpopup');
 
     variantRegistry.setVariant('InnerEnv', '_index', '_index');
     variantRegistry.setVariant('InnerEnv', '_reference', '_reference');
